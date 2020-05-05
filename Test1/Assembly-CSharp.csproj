@@ -57,10 +57,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PanelA.cs" />
-    <Compile Include="Assets\PanelMain.cs" />
-    <Compile Include="Assets\UIManager.cs" />
-    <Compile Include="Assets\UIRootHandler.cs" />
+    <Compile Include="Assets\Script\PanelA.cs" />
+    <Compile Include="Assets\Script\PanelC.cs" />
+    <Compile Include="Assets\Script\PanelC_Open.cs" />
+    <Compile Include="Assets\Script\PanelMain.cs" />
+    <Compile Include="Assets\Script\UIManager.cs" />
+    <Compile Include="Assets\Script\UIRootHandler.cs" />
     <Compile Include="Assets\Utility-master\Utility-master\Scripts\DebugFilter.cs" />
     <Compile Include="Assets\Utility-master\Utility-master\Scripts\Singleton.cs" />
     <Compile Include="Assets\Utility-master\Utility-master\Scripts\SingletonObject.cs" />
