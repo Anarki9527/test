@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIManager : Singleton<UIManager>
 {
-    private string UI_GAMEPANEL_ROOT = "Prefab/GamePanel/";
+    private string UI_GAMEPANEL_ROOT = "Prefab/Panel/";
     public GameObject m_CanvaRoot;
     public Dictionary<string, GameObject> m_PanelList = new Dictionary<string, GameObject>();
 
@@ -54,7 +54,7 @@ public class UIManager : Singleton<UIManager>
             Debug.LogErrorFormat("TogglePanel[(0)] not found. ", name);
         }
     }
-    public void ClossPanel(string name)
+    public void ClosePanel(string name)
     {
         if (IsPanelLive(name) )
         {
@@ -67,7 +67,7 @@ public class UIManager : Singleton<UIManager>
             Debug.LogErrorFormat("TogglePanel[(0)] not found. ", name);
         }
     }
-    public void ClossAllPanel()
+    public void CloseAllPanel()
     {
         foreach (KeyValuePair<string , GameObject > item in m_PanelList)
         {
