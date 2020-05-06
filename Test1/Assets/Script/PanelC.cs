@@ -7,13 +7,14 @@ using UnityEngine;
 public class PanelC : MonoBehaviour {
 
     public Animator ani;
-    // void Start()
-    //{
-    //     ani.SetTrigger("exit");
-    //}
+    void Start()
+    {
+
+    }
 
     public void OnBtnClick()
     {
+        ani.SetTrigger("exit");
         Thread.Sleep(500);
         UIManager.Instance.ClossPanel("PanelC");
     }
