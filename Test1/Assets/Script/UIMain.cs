@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Events;
 public class UIMain : MonoBehaviour
 {
+	//主介面中呼叫介面的按鈕
 	private GameObject Btn1;
 	private GameObject Btn2;
 	private GameObject Btn3;
@@ -20,6 +21,7 @@ public class UIMain : MonoBehaviour
 	private GameObject Btn13;
 	private GameObject Btn14;
 
+	//彈出介面的關閉按鈕
 	private GameObject Btn1c;
 	private GameObject Btn2c;
 	private GameObject Btn3c;
@@ -35,7 +37,7 @@ public class UIMain : MonoBehaviour
 	private GameObject Btn13c;
 	private GameObject Btn14c;
 
-	// Start is called before the first frame update
+	
 	void Start()
 	{
 		Btn1 = GameObject.Find("Canvas/PanelMain/Btn1");
